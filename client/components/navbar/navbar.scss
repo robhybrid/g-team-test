@@ -1,0 +1,21 @@
+
+.gear {
+  cursor: pointer;
+  background: url(/assets/images/g-logo.png) no-repeat transparent;
+  height: 56px;
+  width: 56px;
+}
+navbar {
+  height: 69px;
+  display: block;
+  padding: 7px 21px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .gear {
+    background: url(/assets/images/2x/g-logo.png) no-repeat transparent;
+  }
+}

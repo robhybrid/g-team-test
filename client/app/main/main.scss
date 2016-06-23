@@ -1,0 +1,133 @@
+$blue: #448bff;
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+.main-video {
+  width: 100%;
+  height: 651px;
+  background: #000;
+  iframe {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.title {
+  width: 239px;
+  height: 105px;
+  margin: 45px auto 35px;
+  background: url(/assets/images/early-days.png) no-repeat transparent;
+}
+
+.openning {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  color: #898989;
+  font-size: 15px;
+  text-align: center;
+  p {
+    margin: 0.5em 0;
+  }
+  margin-bottom: 35px;
+}
+
+.panel {
+  width: 366px;
+  height: 400px;
+  display: inline-block;
+  color: #fff;
+  margin: 15px 0 15px 9px;
+  position: relative;
+  .text {
+    display: block;
+    position: absolute;
+    bottom: 36px;
+    left: 40px;
+  }
+  h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 27.5px;
+  }
+  a {
+    margin-top: 28px;
+    color: $blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background: url(/assets/images/explore.png) right 1px no-repeat transparent;
+    padding-right: 22px;
+  }
+}
+
+.look {
+  background: url(/assets/images/what-we-found.png) no-repeat transparent;
+  height: 29px;
+  width: 333px;
+  margin: 44px auto 20px;
+}
+
+.panel1 {
+  background: url(/assets/images/card1.png) no-repeat transparent;
+}
+.panel2 {
+  background: url(/assets/images/card2.png) no-repeat transparent;
+}
+.panel3 {
+  background: url(/assets/images/card3.png) no-repeat transparent;
+}
+
+.social {
+  background: $blue;
+  height: 131px;
+  text-align: center;
+  a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 47px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .links {
+    display: inline-block;
+    margin: 54px auto;
+  }
+  .fb {
+    background: url(/assets/images/fb.png) no-repeat transparent;
+  }
+  .twitter {
+    background: url(/assets/images/twitter.png) no-repeat transparent;
+  }
+  .g-plus {
+    background: url(/assets/images/g-plus.png) no-repeat transparent;
+  }
+  .pinterest {
+    background: url(/assets/images/pinterest.png) no-repeat transparent;
+  }
+}
+
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .title {
+    background: url(/assets/images/2x/early-days.png) no-repeat transparent;
+  }
+  .panel1 {
+    background: url(/assets/images/2x/card1.png) no-repeat transparent;
+  }
+  .panel2 {
+    background: url(/assets/images/2x/card2.png) no-repeat transparent;
+  }
+  .panel3 {
+    background: url(/assets/images/2x/card3.png) no-repeat transparent;
+  }
+  .look {
+    background: url(/assets/images/2x/what-we-found.png) no-repeat transparent;
+  }
+}
