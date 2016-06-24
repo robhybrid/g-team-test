@@ -17,5 +17,17 @@ navbar {
 (min-resolution: 192dpi) {
   .gear {
     background: url(/assets/images/2x/g-logo.png) no-repeat transparent;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  navbar {
+    padding: 10px 26px;
+  }
+  .gear {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
   }
 }
